@@ -1,0 +1,8 @@
+Acessar o container
+docker exec -it token-redis redis-cli
+
+Gerar o build da aplicacao
+docker image build -t stateless-api .
+
+rodar docker compose
+docker-compose up --build -d
