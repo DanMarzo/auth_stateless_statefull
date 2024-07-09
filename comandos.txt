@@ -9,3 +9,10 @@ docker container run --name stateles-aut-api -p 8080:8080 --network  auth_auth  
 
 rodar docker compose
 docker-compose up --build -d
+
+
+Criar imagem
+FROM openjdk:17-alpine
+COPY build/libs/any-api-0.0.1-SNAPSHOT.jar app.jar
+EXPOSE 8081
+ENTRYPOINT ["java", "-jar", "app.jar"]
