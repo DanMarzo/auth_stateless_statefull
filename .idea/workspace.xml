@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ab0771c-b21c-4cd8-add9-09f156d25ff1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/statefull/any-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/statefull/statefull-any-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/statefull/statefull-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/stateless/any-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/stateless/stateless-api">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2iiHwkS2iXIKKhw0FLBbSH6eUma" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StatelessApplication.executor": "Run",
+    "Gradle.any-api [:AnyApiApplication.main()].executor": "Run",
+    "Gradle.statefull-api [:StatefullApplication.main()].executor": "Run",
+    "Gradle.stateless-api [:StatelessApplication.main()].executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/java/auth",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37931034",
+    "settings.editor.selected.configurable": "project.scopes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\auth\statefull\statefull-any-api" />
+      <recent name="D:\workspace\java\auth\statefull\statefull-api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StatelessApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.microservices.stateless.StatelessApplication" />
+      <module name="stateless-auth-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.microservices.stateless.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="auth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="auth" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StatelessApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ab0771c-b21c-4cd8-add9-09f156d25ff1" name="Changes" comment="" />
+      <created>1719966718643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719966718643</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Rename files">
+      <option name="closed" value="true" />
+      <created>1720550519201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720550519201</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Iniciando com criação de imagens">
+      <option name="closed" value="true" />
+      <created>1720550754331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720550754331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Consertando nomes e retirando pacotes nao utilizados">
+      <option name="closed" value="true" />
+      <created>1720553203150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720553203150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Consertando nomes e retirando pacotes nao utilizados">
+      <option name="closed" value="true" />
+      <created>1720553212669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720553212669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Preparando validacao de Token">
+      <option name="closed" value="true" />
+      <created>1720556603588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720556603588</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Preparando configuracao para GERAR, VALIDAR o access token">
+      <option name="closed" value="true" />
+      <created>1720557964132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720557964132</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Preparando configuracao para GERAR, VALIDAR o access token">
+      <option name="closed" value="true" />
+      <created>1720557974555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720557974555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Arrumando controller e uso de construtores com lombok">
+      <option name="closed" value="true" />
+      <created>1720913475771</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720913475771</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="docker-compose.yml" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rename files" />
+    <MESSAGE value="Iniciando com criação de imagens" />
+    <MESSAGE value="Consertando nomes e retirando pacotes nao utilizados" />
+    <MESSAGE value="Preparando validacao de Token" />
+    <MESSAGE value="Preparando configuracao para GERAR, VALIDAR o access token" />
+    <MESSAGE value="Arrumando controller e uso de construtores com lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando controller e uso de construtores com lombok" />
+  </component>
+</project>
