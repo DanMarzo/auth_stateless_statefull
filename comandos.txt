@@ -1,3 +1,6 @@
+build aplicativo
+.\gradlew build
+
 Acessar o container
 docker exec -it token-redis redis-cli
 
