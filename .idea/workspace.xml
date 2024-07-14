@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Movendo arquivos">
-      <change afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/core/service/AnyService.java" afterDir="false" />
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Finalizando arquitetura de microsservicos com autenticacao StateLess">
+      <change afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/infra/PasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/infra/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,12 +134,29 @@
       <option name="project" value="LOCAL" />
       <updated>1720977052100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finalizando arquitetura de microsservicos com autenticacao StateLess">
+      <option name="closed" value="true" />
+      <created>1720977636084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720977636084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finalizando arquitetura de microsservicos com autenticacao StateLess">
+      <option name="closed" value="true" />
+      <created>1720977644847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720977644847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preparando any api para usar a auth api de stateless" />
     <MESSAGE value="Movendo arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movendo arquivos" />
+    <MESSAGE value="Finalizando arquitetura de microsservicos com autenticacao StateLess" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando arquitetura de microsservicos com autenticacao StateLess" />
   </component>
 </project>

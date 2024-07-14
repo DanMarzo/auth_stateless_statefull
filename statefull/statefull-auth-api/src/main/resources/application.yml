@@ -1,5 +1,10 @@
 server:
   port: ${PORT:8082}
+
+redis:
+  host: ${REDIS_HOST:localhost}
+  port: ${REDIS_PORT:6379}
+
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
