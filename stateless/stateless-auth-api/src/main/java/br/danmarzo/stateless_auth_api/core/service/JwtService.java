@@ -26,7 +26,7 @@ public class JwtService {
     @Value("${app.token.secret-key}")
     private String secretKey;
 
-    private Date generateExpiresAt(){
+    private Date generateExpiresAt() {
         return Date.from(
                 LocalDateTime.now()
                         .plusHours(ONE_DAY_IN_HOURS)
@@ -35,12 +35,12 @@ public class JwtService {
                         ).toInstant());
     }
 
-    private SecretKey generateSign(){
+    private SecretKey generateSign() {
         return Keys.hmacShaKeyFor(secretKey.getBytes());
     }
 
-    public String createToken(User user){
-        var data = new HashMap<String,String>();
+    public String createToken(User user) {
+        var data = new HashMap<String, String>();
         data.put("id", user.getId().toString());
         data.put("username", user.getUsername());
         return Jwts.builder()
@@ -50,7 +50,7 @@ public class JwtService {
                 .compact();
     }
 
-    public void validateAccessToken(String token){
+    public void validateAccessToken(String token) {
         var accesstoken = extractToken(token);
         try {
             Jwts
@@ -59,16 +59,16 @@ public class JwtService {
                     .build()
                     .parseClaimsJws(accesstoken)
                     .getBody();
-        }catch (Exception ex){
+        } catch (Exception ex) {
             throw new AuthenticationException("Invalid token " + ex.getMessage());
         }
     }
 
-    private String extractToken(String token){
-        if(ObjectUtils.isEmpty(token)){
+    private String extractToken(String token) {
+        if (ObjectUtils.isEmpty(token)) {
             throw new ValidationException("The access token was not informed");
         }
-        if(token.contains(EMPTY_SPACE)){
+        if (token.contains(EMPTY_SPACE)) {
             return token.split(EMPTY_SPACE)[TOKEN_INDEX];
         }
         return token;

@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class ExceptionGlobalHandler {
     //Cuidar das exceções
     @ExceptionHandler(ValidationException.class)
-    public ResponseEntity<?> handleValidationException(ValidationException validationException){
+    public ResponseEntity<?> handleValidationException(ValidationException validationException) {
         var details = new ExceptionDetails(HttpStatus.BAD_REQUEST.value(), validationException.getMessage());
         return new ResponseEntity<>(details, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(AuthenticationException.class)
-    public ResponseEntity<?> handleAuthenticationException(AuthenticationException authenticationException){
+    public ResponseEntity<?> handleAuthenticationException(AuthenticationException authenticationException) {
         var details = new ExceptionDetails(HttpStatus.UNAUTHORIZED.value(), authenticationException.getMessage());
         return new ResponseEntity<>(details, HttpStatus.UNAUTHORIZED);
     }

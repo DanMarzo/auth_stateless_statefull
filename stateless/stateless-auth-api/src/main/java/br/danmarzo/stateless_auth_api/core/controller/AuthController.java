@@ -13,12 +13,12 @@ public class AuthController {
     private final AuthService authService;
 
     @PostMapping("login")
-    public TokenDTO login(@RequestBody AuthRequest request){
+    public TokenDTO login(@RequestBody AuthRequest request) {
         return authService.login(request);
     }
 
     @PostMapping("token/validate")
-    public TokenDTO tokenValidate(@RequestHeader String accessToken){
+    public TokenDTO tokenValidate(@RequestHeader String accessToken) {
         return authService.validateToken(accessToken);
     }
 }

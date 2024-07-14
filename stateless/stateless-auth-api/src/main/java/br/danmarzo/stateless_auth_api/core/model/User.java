@@ -12,15 +12,15 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "user", schema ="public" )
+@Table(name = "user", schema = "public")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Integer id;
+    private Integer id;
     @Column(nullable = false)
-    private  String username;
+    private String username;
     @Column(nullable = false)
-    private  String password;
+    private String password;
 
     public Integer getId() {
         return id;
