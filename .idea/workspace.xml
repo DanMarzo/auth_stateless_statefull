@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Finalizando arquitetura de microsservicos com autenticacao StateLess">
-      <change afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/infra/PasswordEncoderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/infra/RedisConfig.java" afterDir="false" />
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Configurando a conexao do Redis">
+      <change afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/core/dto/AuthRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -150,13 +148,22 @@
       <option name="project" value="LOCAL" />
       <updated>1720977644847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Configurando a conexao do Redis">
+      <option name="closed" value="true" />
+      <created>1720978302410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720978302410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preparando any api para usar a auth api de stateless" />
     <MESSAGE value="Movendo arquivos" />
     <MESSAGE value="Finalizando arquitetura de microsservicos com autenticacao StateLess" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando arquitetura de microsservicos com autenticacao StateLess" />
+    <MESSAGE value="Configurando a conexao do Redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurando a conexao do Redis" />
   </component>
 </project>
