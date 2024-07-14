@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/any-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/any-api.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/statefull/statefull-auth-api/statefull-auth-api.iml" filepath="$PROJECT_DIR$/statefull/statefull-auth-api/statefull-auth-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stateless/stateless-any-api/stateless-any-api.iml" filepath="$PROJECT_DIR$/stateless/stateless-any-api/stateless-any-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stateless/stateless-auth-api/stateless-auth-api.iml" filepath="$PROJECT_DIR$/stateless/stateless-auth-api/stateless-auth-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/auth.iml" filepath="$PROJECT_DIR$/.idea/auth.iml" />
     </modules>
   </component>
 </project>
