@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Preparando services">
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Realizando a devida formatacao no codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/StatefullAnyApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/StatefullAnyApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/infra/exception/AuthenticationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/infra/exception/AuthenticationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/infra/exception/ExceptionGlobalHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/infra/exception/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/infra/exception/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/StatelessAnyApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/StatelessAnyApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/exception/AuthenticationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/exception/AuthenticationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/exception/ExceptionGlobalHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/exception/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/exception/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/core/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/core/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/core/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/core/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/core/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/core/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/infra/exception/AuthenticationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/infra/exception/AuthenticationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/infra/exception/ExceptionGlobalHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/infra/exception/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-auth-api/src/main/java/br/danmarzo/stateless_auth_api/infra/exception/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/core/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/core/service/TokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -185,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720978903914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Realizando a devida formatacao no codigo">
+      <option name="closed" value="true" />
+      <created>1720979107511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720979107511</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +190,7 @@
     <MESSAGE value="Configurando a conexao do Redis" />
     <MESSAGE value="DTO criados para trabalhar com o redis e database" />
     <MESSAGE value="Preparando services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparando services" />
+    <MESSAGE value="Realizando a devida formatacao no codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizando a devida formatacao no codigo" />
   </component>
 </project>
