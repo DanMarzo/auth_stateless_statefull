@@ -1,4 +1,4 @@
-package br.danmarzo.stateless_any_api.infra.core.dto;
+package br.danmarzo.stateless_any_api.core.dto;
 
 public record AnyResponse(String status, Integer code, AuthUserResponse authUserResponse) {
 }

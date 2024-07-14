@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/core/dto/AnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/core/dto/AuthUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/core/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/java/br/danmarzo/stateless_any_api/infra/core/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stateless/stateless-any-api/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Preparando any api para usar a auth api de stateless" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +78,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720915689538</updated>
     </task>
+    <task id="LOCAL-00001" summary="Preparando any api para usar a auth api de stateless">
+      <option name="closed" value="true" />
+      <created>1720918367644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720918367644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Preparando any api para usar a auth api de stateless" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparando any api para usar a auth api de stateless" />
   </component>
 </project>

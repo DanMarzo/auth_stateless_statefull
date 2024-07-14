@@ -1,12 +1,11 @@
-package br.danmarzo.stateless_any_api.infra.core.service;
+package br.danmarzo.stateless_any_api.core.service;
 
-import br.danmarzo.stateless_any_api.infra.core.dto.AuthUserResponse;
+import br.danmarzo.stateless_any_api.core.dto.AuthUserResponse;
 import br.danmarzo.stateless_any_api.infra.exception.AuthenticationException;
 import br.danmarzo.stateless_any_api.infra.exception.ValidationException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
