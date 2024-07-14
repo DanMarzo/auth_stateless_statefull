@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Configurando a conexao do Redis">
-      <change afterPath="$PROJECT_DIR$/statefull/statefull-auth-api/src/main/java/br/danmarzo/statefull_auth_api/core/dto/AuthRequest.java" afterDir="false" />
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="DTO criados para trabalhar com o redis e database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -156,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720978302410</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DTO criados para trabalhar com o redis e database">
+      <option name="closed" value="true" />
+      <created>1720978455435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720978455435</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +171,7 @@
     <MESSAGE value="Movendo arquivos" />
     <MESSAGE value="Finalizando arquitetura de microsservicos com autenticacao StateLess" />
     <MESSAGE value="Configurando a conexao do Redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configurando a conexao do Redis" />
+    <MESSAGE value="DTO criados para trabalhar com o redis e database" />
+    <option name="LAST_COMMIT_MESSAGE" value="DTO criados para trabalhar com o redis e database" />
   </component>
 </project>
