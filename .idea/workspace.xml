@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Criando client">
-      <change afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/dto/AuthUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/dto/TokenDTO.java" afterDir="false" />
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Preparando services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/client/TokenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/client/TokenClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +84,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.StatefullAuthApiApplication">
+    <configuration name="StatefullAnyApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.danmarzo.statefull_any_api.StatefullAnyApiApplication" />
+      <module name="statefull-any-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.danmarzo.statefull_any_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatefullAuthApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.danmarzo.statefull_auth_api.StatefullAuthApiApplication" />
       <module name="statefull-auth-api.main" />
@@ -126,8 +136,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests in 'stateless-auth-api'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stateless/stateless-auth-api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatefullAnyApiApplication" />
+        <item itemvalue="Gradle.Tests in 'stateless-auth-api'" />
         <item itemvalue="Application.StatefullAuthApiApplication" />
         <item itemvalue="Application.StatelessAuthApiApplication" />
         <item itemvalue="Application.StatelessAnyApiApplication" />
@@ -223,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720983188337</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Preparando services">
+      <option name="closed" value="true" />
+      <created>1721003402295</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721003402295</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,10 +274,10 @@
     <MESSAGE value="Finalizando arquitetura de microsservicos com autenticacao StateLess" />
     <MESSAGE value="Configurando a conexao do Redis" />
     <MESSAGE value="DTO criados para trabalhar com o redis e database" />
-    <MESSAGE value="Preparando services" />
     <MESSAGE value="Realizando a devida formatacao no codigo" />
     <MESSAGE value="Preparando service para autenticacao" />
     <MESSAGE value="Criando client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando client" />
+    <MESSAGE value="Preparando services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparando services" />
   </component>
 </project>
