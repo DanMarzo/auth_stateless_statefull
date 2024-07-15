@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Preparando services">
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Tests in 'statefull-auth-api'.executor": "Run",
+    "Gradle.Tests in 'stateless-auth-api'.executor": "Run",
+    "Gradle.statefull-any-api [:StatefullAnyApiApplication.main()].executor": "Run",
     "Gradle.statefull-auth-api [:StatefullAuthApiApplication.main()].executor": "Run",
     "Gradle.stateless-any-api [:StatelessAnyApiApplication.main()].executor": "Run",
     "Gradle.stateless-auth-api [:StatelessAuthApiApplication.main()].executor": "Run",
@@ -265,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721003402295</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finalizando statefull">
+      <option name="closed" value="true" />
+      <created>1721003880248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721003880248</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +288,7 @@
     <MESSAGE value="Preparando service para autenticacao" />
     <MESSAGE value="Criando client" />
     <MESSAGE value="Preparando services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparando services" />
+    <MESSAGE value="Finalizando statefull" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando statefull" />
   </component>
 </project>
