@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Preparando service para autenticacao">
+    <list default="true" id="64db0887-38f3-45c4-b4a0-682b8e3bdef5" name="Changes" comment="Criando client">
+      <change afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/dto/AuthUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/dto/TokenDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statefull/statefull-auth-api/src/test/java/br/danmarzo/statefull_auth_api/StatefullAuthApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/client/TokenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/client/TokenClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,11 +75,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/java/auth/statefull/statefull-any-api/src/main/java/br/danmarzo/statefull_any_api/core/dto",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\auth\statefull\statefull-any-api\src\main\java\br\danmarzo\statefull_any_api\core\dto" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.StatefullAuthApiApplication">
     <configuration name="StatefullAuthApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.danmarzo.statefull_auth_api.StatefullAuthApiApplication" />
@@ -208,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720981652617</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Criando client">
+      <option name="closed" value="true" />
+      <created>1720983188336</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720983188337</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +235,7 @@
     <MESSAGE value="Preparando services" />
     <MESSAGE value="Realizando a devida formatacao no codigo" />
     <MESSAGE value="Preparando service para autenticacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparando service para autenticacao" />
+    <MESSAGE value="Criando client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando client" />
   </component>
 </project>
