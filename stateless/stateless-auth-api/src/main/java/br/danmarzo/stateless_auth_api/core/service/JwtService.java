@@ -55,10 +55,10 @@ public class JwtService {
         try {
             Jwts
                     .parser()
-                    .setSigningKey(generateSign())
+                    .verifyWith(generateSign())
                     .build()
-                    .parseClaimsJws(accesstoken)
-                    .getBody();
+                    .parseSignedClaims(accesstoken)
+                    .getPayload();
         } catch (Exception ex) {
             throw new AuthenticationException("Invalid token " + ex.getMessage());
         }

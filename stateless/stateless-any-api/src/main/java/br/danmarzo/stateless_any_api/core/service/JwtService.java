@@ -35,10 +35,10 @@ public class JwtService {
         try {
             return Jwts
                     .parser()
-                    .setSigningKey(generateSign())
+                    .verifyWith(generateSign())
                     .build()
-                    .parseClaimsJws(accesstoken)
-                    .getBody();
+                    .parseSignedClaims(accesstoken)
+                    .getPayload();
         } catch (Exception ex) {
             throw new AuthenticationException("Invalid token " + ex.getMessage());
         }
