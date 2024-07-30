@@ -16,9 +16,9 @@ services:
     container_name: statefull-auth-db
     image: postgres:latest
     environment:
-      POSTGRES_DB: auth-db
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      - POSTGRES_DB= auth-db
+      - POSTGRES_USER= postgres
+      - POSTGRES_PASSWORD= postgres
     networks:
       - auth
     ports:
